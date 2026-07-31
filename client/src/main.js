@@ -1,0 +1,32 @@
+import "./css/style.css";
+
+import { Navbar } from "./components/navbar";
+import { Hero } from "./components/hero";
+import { About } from "./components/about";
+import { Skills } from "./components/skills";
+import { Projects } from "./components/projects";
+import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
+
+import { initNavbar } from "./js/navbar";
+import { initSkills } from "./js/skills";
+import { initSkillsFilter } from "./js/skillsFilter";
+import { initProjectFilter } from "./js/projectFilter";
+import { initContact } from "./js/contact";
+import { showToast } from "./js/toast";
+
+document.querySelector("#app").innerHTML = `
+${Navbar()}
+${Hero()}
+${About()}
+${Skills()}
+${Projects()}
+${Contact()}
+${Footer()}
+`;
+
+initNavbar();
+initSkills();
+initSkillsFilter();
+initProjectFilter();
+initContact();
