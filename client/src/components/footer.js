@@ -4,7 +4,7 @@ return `
     
     <div class="max-w-7xl mx-auto px-5">
         <div class="flex justify-end p-3">
-        <a href="#home" class="group inline-flex flex-col items-center  gap-2">
+        <a href="#hero" class="group inline-flex flex-col items-center  gap-2">
         <span
             class="flex size-10 items-center justify-center rounded-full border border-primary/20 text-secondary transition-all duration-300 group-hover:border-accent group-hover:text-accent group-hover:-translate-y-1">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"

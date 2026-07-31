@@ -211,7 +211,7 @@ return `
                         </li>
                     </ul>
                     <img src="${contactImage}" alt="me" class="contact-image" aria-hidden="true" draggable="false"
-                        width="200" height="200" data-reveal="zoom">
+                        width="200" height="200">
                 </div>
             </div>
         </div>
