@@ -203,7 +203,7 @@ export const projects = [
         mainTech: "React + Vite",
         image: portfolio, // Import or define this image variable at the top
         imageClass: "bg-cover bg-center",
-        category: ["react", "frontend"],
+        category: ["react", "tailwind"],
         type: "Portfolio Website",
         date: "Jul 2026",
         role: "Frontend Development",
