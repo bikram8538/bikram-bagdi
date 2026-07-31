@@ -1,7 +1,7 @@
 import inkIvory from "../assets/images/ink-ivory-banner.png";
 import finPocket from "../assets/images/fin-pocket.png";
 import aJobs from "../assets/images/ajobs.png";
-import equipMed from "../assets/images/equipMed.png"
+import equipMed from "../assets/images/equipmed.png"
 import finpocketDashboard from "../assets/images/finpocketDashboard.png"
 
 export const projects = [
