@@ -4,7 +4,7 @@ const router = express.Router();
 
 const { sendContact } = require("../controllers/contact.controller");
 const { validateContact } = require("../middleware/validateContact");
-
+const contactLimiter = require("../middleware/rateLimiter");
 const { body } = require("express-validator");
 
 router.post(
