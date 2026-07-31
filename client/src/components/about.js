@@ -1,7 +1,7 @@
 import aboutImage from "../assets/images/bikram-in-metro.webp";
 export function About() {
   return `
-<section id="about" class="py-16 sm:py-20 lg:py-24 bg-background text-primary flex items-center justify-between">
+<section id="about" class="py-16 sm:py-20 lg:py-24 bg-background text-primary flex items-center justify-between" data-fade-up>
   <div class="max-w-7xl mx-auto px-5">
     <div class="flex flex-col md:flex-row gap-10 md:gap-12 items-baseline-last justify-between">
       <div class="basis-full md:basis-[60%] lg:basis-[60%]">

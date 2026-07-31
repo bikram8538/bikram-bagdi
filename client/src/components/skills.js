@@ -12,7 +12,7 @@ export function renderSkillCards(groups) {
 return groups
 .map(
 (group) => `
-<div class="skills-card">
+<div class="skills-card" data-item>
     <span class="skill-card-circle"></span>
 
     <p class="skill-card-heading">
@@ -77,7 +77,7 @@ return groups
 }
 export function Skills() {
 return `
-<section id="skills" class="py-16 sm:py-20 lg:py-24 bg-background text-primary">
+<section id="skills" class="py-16 sm:py-20 lg:py-24 bg-background text-primary" data-stagger>
     <div class="max-w-7xl mx-auto px-5">
         <div class="sec-top">
             <div>

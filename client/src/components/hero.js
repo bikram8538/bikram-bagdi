@@ -2,12 +2,12 @@ import heroImage from "../assets/images/bikram-smile.jpeg";
 
 export function Hero() {
 return `
-<section id="home"
+<section id="hero"
   class="relative pb-16 sm:pb-20 lg:pb-24 pt-24 sm:pt-32 bg-background text-primary flex items-center justify-between">
   <div class="max-w-7xl mx-auto px-5">
     <div class="hero-grid">
       <div class="hero-content">
-        <div class="hero-intro">
+        <div id="hero-intro" class="hero-intro">
           <span class="h-px w-10 bg-accent"></span>
           <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="size-4 text-accent">
@@ -20,15 +20,15 @@ return `
           </p>
         </div>
         <div class="sec-heading mt-8 max-w-[60ch]">
-          <h1>Crafting fast, <i class="text-accent">modern</i> websites
+          <h1 id="hero-title">Crafting fast, <i class="text-accent">modern</i> websites
             that users enjoy using.</h1>
         </div>
-        <div class="sec-about max-w-xl mt-8">
+        <div id="hero-description" class="sec-about max-w-xl mt-8">
           <p>I'm <span class="text-primary">Bikram Bagdi.</span> I specialize in HTML, CSS, JavaScript, Tailwind CSS,
             WordPress, and Elementor Pro. I build responsive websites with clean code, proper SEO, and solid
             performance.</p>
         </div>
-        <div class="hero-actions">
+        <div id="hero-buttons" class="hero-actions">
           <a href="#" class="btn btn-primary flex-row-reverse" id="btn-hero">
             <span>Download Resume</span>
             <span>
@@ -53,7 +53,7 @@ return `
           </a>
         </div>
 
-        <div
+        <div id="hero-social"
           class="mt-6 flex items-center gap-5 font-secondary text-[10px] uppercase tracking-[0.2em] text-primary/80">
           <span>Elsewhere</span>
           <span class="h-px w-5 bg-primary/60" aria-hidden="true"></span>
@@ -95,7 +95,7 @@ return `
           </ul>
         </div> -->
       </div>
-      <div class="hero-media">
+      <div id="hero-image" class="hero-media">
         <div
           class="hero-image group">
           <img src="${heroImage}" alt="Bikram Bagdi, Frontend and WordPress developer, smiling in a pink shirt"
