@@ -3,37 +3,62 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function createReveal(trigger, elements, options = {}) {
-  const tl = gsap.timeline({ paused: true });
-
-  tl.from(cards, {
-    y: 80,
+const animations = {
+  up: {
+    y: 70,
     opacity: 0,
-    scale: 0.95,
-    stagger: 0.15,
-    duration: 0.8,
-    ease: "power4.out",
-  });
+  },
+  down: {
+    y: -70,
+    opacity: 0,
+  },
 
-  ScrollTrigger.create({
-    trigger: "#skills",
-    start: "top 75%",
-    end: "bottom 25%",
+  left: {
+    x: -80,
+    opacity: 0,
+  },
 
-    onEnter: () => tl.play(),
+  right: {
+    x: 80,
+    opacity: 0,
+  },
 
-    onLeaveBack: () => tl.reverse(),
+  zoom: {
+    scale: 0.9,
+    opacity: 0,
+  },
 
-    onEnterBack: () => tl.play(),
-  });
-}
+  rotate: {
+    rotation: 4,
+    scale: 0.9,
+    opacity: 0,
+  },
+};
 
 export function initScrollAnimations() {
-  createReveal(
-    "#skills",
-    document.querySelectorAll("#skills [data-item]"),
-    {
-      stagger: 0.18,
-    }
-  );
+
+  const elements = document.querySelectorAll("[data-reveal]");
+
+  elements.forEach((element) => {
+
+    const type = element.dataset.reveal || "up";
+
+    gsap.from(element, {
+      ...animations[type],
+
+      duration: 0.9,
+
+      ease: "power3.out",
+
+      scrollTrigger: {
+        trigger: element,
+        start: "top 85%",
+        end: "top 30%",
+
+        toggleActions: "play none none reverse",
+      },
+    });
+
+  });
+
 }

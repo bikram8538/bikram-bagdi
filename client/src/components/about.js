@@ -1,7 +1,7 @@
 import aboutImage from "../assets/images/bikram-in-metro.webp";
 export function About() {
   return `
-<section id="about" class="py-16 sm:py-20 lg:py-24 bg-background text-primary flex items-center justify-between" data-fade-up>
+<section id="about" class="py-16 sm:py-20 lg:py-24 bg-background text-primary flex items-center justify-between">
   <div class="max-w-7xl mx-auto px-5">
     <div class="flex flex-col md:flex-row gap-10 md:gap-12 items-baseline-last justify-between">
       <div class="basis-full md:basis-[60%] lg:basis-[60%]">
@@ -11,19 +11,19 @@ export function About() {
               class="sec-title text-[10px]">WHO IS BIKRAM?</span></p>
         </div>
         <div class="sec-heading mt-8 max-w-xs md:max-w-md">
-          <h2>I care about the <i class="text-accent">details</i> that make websites feel effortless.</h2>
+          <h2 data-reveal="up">I care about the <i class="text-accent">details</i> that make websites feel effortless.</h2>
         </div>
         <div class="sec-about max-w-[60ch] mt-8">
-          <p>I'm Bikram Bagdi, a Frontend and WordPress Developer focused on building responsive websites using HTML,
+          <p data-reveal>I'm Bikram Bagdi, a Frontend and WordPress Developer focused on building responsive websites using HTML,
             CSS, JavaScript, Tailwind CSS, WordPress, and Elementor Pro.</p>
-          <p class="mt-4">I enjoy translating designs into clean, maintainable code while paying attention to
+          <p data-reveal="up" class="mt-4">I enjoy translating designs into clean, maintainable code while paying attention to
             <strong> performance,
               accessibility, responsive layouts, and SEO.</strong> My goal is to create websites that look polished and
             work
             smoothly across every device.
           </p>
           <div class="border-l border-accent max-w-[43ch] sm:max-w-[54ch] mt-6 text-left rounded-2xl">
-            <p class="pl-5 py-2"><em>Outside of coding</em>, I'm probably nudging a margin by 2px because something still
+            <p data-reveal="up" class="pl-5 py-2"><em>Outside of coding</em>, I'm probably nudging a margin by 2px because something still
               feels "slightly off." Thankfully, users usually notice the final result — not the extra ten minutes it
               took.
               <span class="inline-block text-accent">
@@ -35,9 +35,9 @@ export function About() {
             </p>
           </div>
         </div>
-        <div class="sec-about mt-4">
+        <div class="sec-about mt-4" data-reveal="left">
           <ul class="flex flex-row sm:flex-row gap-2.5">
-            <li class="font-secondary text-[10px] uppercase text-secondary items-center flex gap-1 sm:gap-2">
+            <li data-reveal="up" class="font-secondary text-[10px] uppercase text-secondary items-center flex gap-1 sm:gap-2">
               <span class="inline-flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                   stroke="currentColor" class="size-4">
@@ -49,7 +49,7 @@ export function About() {
               </span>2px matters
             </li>
             <span class="hidden sm:block border-[0.5px] sm:border"></span>
-            <li class="font-secondary text-[10px] uppercase text-secondary items-center flex gap-1 sm:gap-2"><span
+            <li data-reveal="up" class="font-secondary text-[10px] uppercase text-secondary items-center flex gap-1 sm:gap-2"><span
                 class="inline-flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                   stroke="currentColor" class="size-4">
@@ -62,7 +62,7 @@ export function About() {
         </div>
       </div>
       <div class="basis-full md:basis-[40%] lg:basis-[40%]">
-        <div class="group relative aspect-4/3 sm:aspect-4/5 overflow-hidden rounded-xl">
+        <div data-reveal="zoom" class="group relative aspect-4/3 sm:aspect-4/5 overflow-hidden rounded-xl">
           <img src="${aboutImage}" alt=""
             class="h-full w-full object-cover transition-transform ease-out duration-300 group-hover:scale-110">
         </div>

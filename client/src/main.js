@@ -3,6 +3,7 @@ import { Loader } from "./components/loader";
 import { initLoader } from "./animations/loaderAnimation";
 import { initHeroAnimation } from "./animations/heroAnimation";
 import { initScrollAnimations } from "./animations/scrollAnimations";
+import { initSmoothScroll } from "./js/smoothScroll";
 
 import { Navbar } from "./components/navbar";
 import { Hero } from "./components/hero";
@@ -31,6 +32,7 @@ ${Contact()}
 ${Footer()}
 `;
 
+initSmoothScroll();
 initNavbar();
 initSkills();
 initSkillsFilter();

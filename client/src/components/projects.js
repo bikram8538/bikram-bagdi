@@ -16,7 +16,7 @@ return projects
     <article class="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-8 md:items-center">
 
         <!-- Left -->
-        <div class="project-image-col md:col-span-7 ${index % 2 !== 0 ? " md:order-2" : "" }">
+        <div class="project-image-col md:col-span-7 ${index % 2 !== 0 ? " md:order-2" : "" }" data-reveal="down">
             <div class="preview-wrapper group">
                 <div class="preview-wrapper-ratio">
 
@@ -48,7 +48,7 @@ return projects
         </div>
 
         <!-- Right -->
-        <div class="project-content md:col-span-5 ${index % 2 !== 0 ? " md:order-1" : "" }">
+        <div class="project-content md:col-span-5 ${index % 2 !== 0 ? " md:order-1" : "" }" data-reveal="up">
             <div class="project-numbering hidden">
                 ${String(index + 1).padStart(2, "0")}
             </div>

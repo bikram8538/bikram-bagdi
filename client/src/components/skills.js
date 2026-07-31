@@ -12,7 +12,7 @@ export function renderSkillCards(groups) {
 return groups
 .map(
 (group) => `
-<div class="skills-card" data-item>
+<div class="skills-card" data-reveal="up">
     <span class="skill-card-circle"></span>
 
     <p class="skill-card-heading">

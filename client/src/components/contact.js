@@ -16,7 +16,7 @@ return `
             </div>
         </div>
         <div class="grid grid-cols-12 gap-8">
-            <div class="col-span-12 md:col-span-6 lg:col-span-7">
+            <div class="col-span-12 md:col-span-6 lg:col-span-7" data-reveal="left">
                 <form id="contact-form" action="" class="space-y-6">
                     <!-- Name -->
                     <div class="group">
@@ -79,7 +79,7 @@ return `
 
                 </form>
             </div>
-            <div class="col-span-12 md:col-span-6 lg:col-span-5">
+            <div class="col-span-12 md:col-span-6 lg:col-span-5" data-reveal="right">
                 <div class="contact-card relative">
                     <div class="contact-card-title">OR REACH out DIRECTLY</div>
                     <ul class="space-y-7 mt-8">
@@ -211,7 +211,7 @@ return `
                         </li>
                     </ul>
                     <img src="${contactImage}" alt="me" class="contact-image" aria-hidden="true" draggable="false"
-                        width="200" height="200">
+                        width="200" height="200" data-reveal="zoom">
                 </div>
             </div>
         </div>
