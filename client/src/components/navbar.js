@@ -7,8 +7,8 @@ return `
     <div class="max-w-7xl mx-auto px-5">
       <div class="nav-wraper flex justify-between h-16 items-center">
         <div class="sm:basis-[20%]">
-        <a class="text-primary font-primary text-xl leading-none tracking-tight active"
-            data-status="active" aria-current="page" href="index.html">Bikram <span class="text-secondary">.</span></a>
+          <a class="text-primary font-primary text-xl leading-none tracking-tight active" data-status="active"
+            aria-current="page" href="index.html">Bikram <span class="text-secondary">.</span></a>
         </div>
         <nav class="hidden sm:block basis-[60%]">
           <ul class="flex justify-center gap-8 lg:gap-12 items-baseline">
