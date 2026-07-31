@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# macOS
+.DS_Store
+
+# Node
+node_modules
+
+# Vite
+.vite
+dist
+
+# Environment Variables
+.env
+
+# Logs
+*.log
