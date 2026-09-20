@@ -63,7 +63,7 @@ export function initContact() {
             showToast(
                 "error",
                 "Server Error",
-                "Please try again later."
+                error.message || "Please try again later."
             );
         }
     }
