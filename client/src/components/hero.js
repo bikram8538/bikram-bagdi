@@ -1,5 +1,5 @@
-// import heroImage from "../assets/images/bikram-smile.jpeg";
-import heroImage from "../assets/images/bikram-bagdi-frontend-wordpress-developer.jpg";
+import heroImage from "../assets/images/bikram-smile.jpeg";
+// import heroImage from "../assets/images/bikram-bagdi-frontend-wordpress-developer.jpg";
 
 export function Hero() {
 return `
