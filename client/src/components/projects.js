@@ -93,7 +93,7 @@ return projects
 
             <div class="project-btns">
 
-                <a href="${project.live}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <a href="${project.live}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="View live demo of ${project.title}">
 
                     <span>Live Demo</span>
 
@@ -106,8 +106,8 @@ return projects
                     </span>
 
                 </a>
-
-                <a href="${project.github}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                ${project.github ? `
+                <a href="${project.github}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View ${project.title} source code on GitHub">
 
                     <span>GitHub</span>
 
@@ -118,8 +118,8 @@ return projects
                             </path>
                         </svg>
                     </span>
-
                 </a>
+                ` : ""}
 
             </div>
 
@@ -145,8 +145,10 @@ return `
                         class="sec-title text-[10px]">WHAT HAVE I BUILT?</span></p>
             </div>
             <div class="sec-heading mt-8 max-w-xs md:max-w-[70ch]">
-                <h2>Selected work <i class="text-accent">showcasing frontend</i> development and responsive web
-                    experiences.</h2>
+                <h2>
+  Selected <i class="text-accent">Frontend & WordPress</i>
+  Development Projects.
+</h2>
             </div>
         </div>
 

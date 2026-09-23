@@ -11,7 +11,10 @@ export function About() {
               class="sec-title text-[10px]">WHO IS BIKRAM?</span></p>
         </div>
         <div class="sec-heading mt-8 max-w-xs md:max-w-md">
-          <h2 data-reveal="up">I care about the <i class="text-accent">details</i> that make websites feel effortless.</h2>
+          <h2 data-reveal="up">
+  Frontend & WordPress Developer Who Cares About the
+  <i class="text-accent">Details.</i>
+</h2>
         </div>
         <div class="sec-about max-w-[60ch] mt-8">
           <p data-reveal>I'm Bikram Bagdi, a Frontend and WordPress Developer focused on building responsive websites using HTML,
@@ -57,13 +60,13 @@ export function About() {
                     d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z" />
                 </svg>
 
-              </span>details matters</li>
+              </span>details matter</li>
           </ul>
         </div>
       </div>
       <div class="basis-full md:basis-[40%] lg:basis-[40%]">
         <div data-reveal="zoom" class="group relative aspect-4/3 sm:aspect-4/5 overflow-hidden rounded-xl">
-          <img src="${aboutImage}" alt=""
+          <img src="${aboutImage}" alt="Bikram Bagdi, Frontend and WordPress Developer"
             class="h-full w-full object-cover transition-transform ease-out duration-300 group-hover:scale-110">
         </div>
         <div

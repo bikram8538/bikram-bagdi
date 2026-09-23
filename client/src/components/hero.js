@@ -1,4 +1,5 @@
 import heroImage from "../assets/images/bikram-smile.jpeg";
+import resumeFile from "../assets/files/Bikram-Bagdi-Resume.pdf";
 // import heroImage from "../assets/images/bikram-bagdi-frontend-wordpress-developer.jpg";
 
 export function Hero() {
@@ -21,16 +22,22 @@ return `
           </p>
         </div>
         <div class="sec-heading mt-8 max-w-[60ch]">
-          <h1 id="hero-title">Crafting fast, <i class="text-accent">modern</i> websites
-            that users enjoy using.</h1>
+          <h1 id="hero-title">
+            Frontend & WordPress Developer Building
+            <i class="text-accent">Fast, Modern</i> Websites.
+          </h1>
         </div>
         <div id="hero-description" class="sec-about max-w-xl mt-8">
-          <p>I'm <span class="text-primary">Bikram Bagdi.</span> I specialize in HTML, CSS, JavaScript, Tailwind CSS,
-            WordPress, and Elementor Pro. I build responsive websites with clean code, proper SEO, and solid
-            performance.</p>
+          <p>
+            I'm <span class="text-primary">Bikram Bagdi.</span>
+            A Frontend and WordPress Developer specializing in HTML, CSS,
+            JavaScript, Tailwind CSS, WordPress, and Elementor Pro.
+            I build responsive, SEO-friendly websites with clean code
+            and strong performance.
+          </p>
         </div>
         <div id="hero-buttons" class="hero-actions">
-          <a href="#" class="btn btn-primary flex-row-reverse" id="btn-hero">
+          <a href="${resumeFile}" download="Bikram-Bagdi-Resume.pdf" class="btn btn-primary flex-row-reverse">
             <span>Download Resume</span>
             <span>
               <svg class="w-4 md:w-5 h-4 md:h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
@@ -38,11 +45,9 @@ return `
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01" />
               </svg>
-
-
             </span>
           </a>
-          <a href="#projects" class="btn btn-secondary flex-row-reverse" id="btn-hero">
+          <a href="#projects" class="btn btn-secondary flex-row-reverse">
             <span>View Projects</span>
             <span>
               <svg class="w-4 md:w-5 h-4 md:h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
@@ -58,19 +63,14 @@ return `
           class="mt-6 flex items-center gap-5 font-secondary text-[10px] uppercase tracking-[0.2em] text-primary/80">
           <span>Elsewhere</span>
           <span class="h-px w-5 bg-primary/60" aria-hidden="true"></span>
-          <a
-            href="https://github.com/bikram8538" target="_blank" rel="noreferrer noopener"
+          <a href="https://github.com/bikram8538" target="_blank" rel="noreferrer noopener"
             class="hero-social">GitHub</a>
-            <a
-            href="https://www.linkedin.com/in/bikram8538" target="_blank" rel="noreferrer noopener"
+          <a href="https://www.linkedin.com/in/bikram8538" target="_blank" rel="noreferrer noopener"
             class="hero-social">LinkedIn</a>
-            <a
-            href="mailto:bikram8538@gmail.com"
-            class="hero-social">Email</a>
-            <a href="https://figma.com/bikrammac8538"
-            target="_blank" rel="noreferrer noopener"
+          <a href="mailto:bikram8538@gmail.com" class="hero-social">Email</a>
+          <a href="https://figma.com/bikrammac8538" target="_blank" rel="noreferrer noopener"
             class="hidden hero-social sm:inline">Figma</a>
-          </div>
+        </div>
         <!-- <div class="sec-about mt-4">
           <ul class="flex flex-row sm:flex-row gap-2.5">
             <li class="font-secondary text-[10px] uppercase text-secondary flex gap-1 items-center sm:gap-2">
@@ -97,21 +97,18 @@ return `
         </div> -->
       </div>
       <div id="hero-image" class="hero-media">
-        <div
-          class="hero-image group">
+        <div class="hero-image group">
           <img src="${heroImage}" alt="Bikram Bagdi, Frontend and WordPress developer, smiling in a pink shirt"
             width="800" height="1000" loading="eager" fetchpriority="high"
             class="ease-[cubic-bezier(0.22, 1, 0.36, 1)]">
         </div>
-        <div
-          class="hero-meta">
+        <div class="hero-meta">
           <span>Bikram Bagdi</span><span>Portrait / nov 2025</span>
         </div>
       </div>
     </div>
   </div>
-  <a href="#about"
-    class="hero-scroll group">
+  <a href="#about" class="hero-scroll group">
 
     <!-- Mouse -->
     <div

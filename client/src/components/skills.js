@@ -15,11 +15,11 @@ return groups
 <div class="skills-card" data-reveal="up">
     <span class="skill-card-circle"></span>
 
-    <p class="skill-card-heading">
+    <div class="skill-card-heading">
         <span>${group.number}</span>
         <span></span>
         <span>${group.title}</span>
-    </p>
+    </div>
 
     <ul class="divide-y divide-primary/8">
 
@@ -87,7 +87,10 @@ return `
                         I WORK WITH?</span></p>
             </div>
             <div class="sec-heading mt-8 max-w-xs md:max-w-[56ch]">
-                <h2>The tools I <i class="text-accent">reach for</i>, and what I actually do with them.</h2>
+                <h2>
+  Frontend & WordPress <i class="text-accent">skills</i>
+  I use to build modern websites.
+</h2>
             </div>
         </div>
         <div class="sec-mid my-10">

@@ -7,35 +7,35 @@ export const skillGroups = [
     skills: [
       {
         name: "HTML",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "language",
         description:
           "Semantic, accessible HTML with clean structure and SEO-friendly markup.",
       },
       {
         name: "CSS",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "language",
         description:
           "Responsive layouts using Flexbox, Grid, animations, and modern CSS techniques.",
       },
       {
         name: "JavaScript",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "language",
         description:
           "Interactive UI, DOM manipulation, API integration, and reusable components.",
       },
       {
         name: "Bootstrap",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "framework",
         description:
           "Rapid development of responsive websites with reusable UI components.",
       },
       {
         name: "Tailwind CSS",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "framework",
         description:
           "Utility-first workflows for pixel-perfect, scalable, and maintainable interfaces.",
@@ -50,14 +50,14 @@ export const skillGroups = [
     skills: [
       {
         name: "WordPress",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "cms",
         description:
           "Custom business websites with responsive layouts, SEO, and performance optimization.",
       },
       {
         name: "Elementor Pro",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "cms",
         description:
           "Pixel-perfect pages, custom widgets, responsive controls, and dynamic templates.",
@@ -74,18 +74,18 @@ export const skillGroups = [
         level: "Intermediate",
         category: "language",
         description:
-          "Customize WordPress themes, templates, and functionality with clean server-side code.",
+          "Customizing WordPress themes, templates, and functionality with clean server-side code.",
       },
       {
         name: "Custom CSS & JavaScript",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "language",
         description:
           "Extend Elementor and WordPress with custom styling and interactive functionality.",
       },
       {
         name: "Website Optimization",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "optimization",
         description:
           "Improve loading speed, image optimization, Core Web Vitals, and on-page SEO.",
@@ -100,28 +100,28 @@ export const skillGroups = [
     skills: [
       {
         name: "Git & GitHub",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "tools",
         description:
           "Version control, branching, collaboration, and deployment workflows.",
       },
       {
         name: "VS Code",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "ide",
         description:
           "Efficient development with extensions, debugging, and productivity tools.",
       },
       {
         name: "PhpStorm",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "ide",
         description:
           "Professional IDE for WordPress and PHP development.",
       },
       {
         name: "Sublime Text",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "ide",
         description:
           "Lightweight editor for quick edits and rapid prototyping.",
@@ -162,13 +162,6 @@ export const skillGroups = [
         description:
           "Setting up isolated, fast local development environments.",
       },
-      {
-        name: "Advanced JavaScript",
-        level: "Daily",
-        category: "learning",
-        description:
-          "Strengthening my understanding of asynchronous JavaScript, modules, and modern ES features.",
-      },
     ],
   },
 
@@ -190,13 +183,6 @@ export const skillGroups = [
         category: "design",
         description:
           "Asset extraction and graphics editing.",
-      },
-      {
-        name: "Advanced JavaScript",
-        level: "Daily",
-        category: "design",
-        description:
-          "Strengthening my understanding of asynchronous JavaScript, modules, and modern ES features.",
       },
     ],
   },
@@ -229,7 +215,7 @@ export const skillGroups = [
       },
       {
         name: "UI/UX Principles",
-        level: "Fluent",
+        level: "Working Knowledge",
         category: "learning",
         description:
           "Improving typography, spacing, accessibility, and user experience.",

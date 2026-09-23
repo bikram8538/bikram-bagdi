@@ -27,9 +27,10 @@ return `
             <!-- Brand -->
             <div class="space-y-3 text-center md:text-left">
 
-                <a href="index.html" class="inline-block font-primary text-3xl leading-none tracking-tight">
-                    Bikram<span class="text-accent">.</span>
-                </a>
+                <a href="/" class="inline-block font-primary text-3xl leading-none tracking-tight"
+   aria-label="Bikram Bagdi - Home">
+    Bikram Bagdi<span class="text-accent">.</span>
+</a>
 
                 <p class="font-secondary text-[11px] uppercase tracking-[0.18em] text-secondary">
                     Frontend Developer <br class="hidden sm:hidden">
@@ -42,7 +43,7 @@ return `
             <nav>
                 <ul class="flex flex-wrap justify-center md:justify-end gap-x-8 gap-y-3">
 
-                    <li><a href="#" class="footer-link">Home</a></li>
+                    <li><a href="#hero" aria-label="Back to top" class="footer-link">Home</a></li>
                     <li><a href="#about" class="footer-link">About</a></li>
                     <li><a href="#skills" class="footer-link">Skills</a></li>
                     <li><a href="#projects" class="footer-link">Projects</a></li>

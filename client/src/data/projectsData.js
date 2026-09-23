@@ -22,7 +22,7 @@ export const projects = [
         date: "Mar 2025",
         role: "Frontend Development",
         description:
-            "Ink & Ivory is a premium online bookstore concept designed for readers looking for fine books, rare editions, and timeless literature.",
+  "A responsive online bookstore frontend built with Tailwind CSS and jQuery, featuring a modern editorial-style interface, interactive content sections, and Swiper-powered components.",
         tech: [
             "Tailwind CSS",
             "jQuery",
@@ -43,7 +43,7 @@ export const projects = [
         date: "Mar 2026",
         role: "HTML Frontend Development",
         description:
-            "A modern finance landing page with responsive design and engaging animations.",
+  "A responsive finance landing page built with HTML, custom CSS, and jQuery, featuring modern layouts, smooth animations, and a mobile-friendly user experience.",
         tech: [
             "Custom CSS",
             "Jquery",
@@ -63,7 +63,7 @@ export const projects = [
         date: "Mar 2026",
         role: "Frontend Development",
         description:
-            "The admin and user dashboard for FinPocket, featuring balance tracking, interactive cashflow metrics, savings plan progress bars, category breakdowns, and a comprehensive recent transactions manager.",
+  "A responsive finance dashboard built with HTML and CSS Grid, featuring balance tracking, cashflow metrics, savings progress, category breakdowns, and recent transaction management.",
         tech: [
             "HTML5",
             "CSS Grid",
@@ -81,7 +81,7 @@ export const projects = [
         date: "Jan 2026",
         role: "Frontend Development",
         description:
-            "EquipMed is a medical equipment and technology marketplace designed to supply hospitals, clinics, and health facilities with high-quality diagnostic devices, surgical instruments, and lab machinery.",
+  "A responsive medical equipment marketplace frontend built with HTML, CSS, and JavaScript, featuring structured product categories and a clean interface for browsing diagnostic, surgical, and laboratory equipment.",
         tech: [
             "HTML5",
             "CSS3",
@@ -101,7 +101,7 @@ export const projects = [
         date: "Oct 2025",
         role: "Frontend Development",
         description:
-            "Ajobs is a comprehensive and highly responsive job portal interface featuring category browsing, daily job postings from top-tier firms, featured hiring companies, and structured search patterns.",
+  "A responsive job portal frontend built with Bootstrap and jQuery, featuring job category browsing, company listings, job postings, search-focused layouts, and scroll animations.",
         tech: [
             "Bootstrap",
             "Jquery",
@@ -122,7 +122,7 @@ export const projects = [
         date: "Jul 2026",
         role: "WordPress Development",
         description:
-            "A custom WordPress website designed for local business services in Calgary, featuring a fully responsive layout, custom styling, and optimized performance.",
+  "A responsive job portal frontend built with Bootstrap and jQuery, featuring job category browsing, company listings, job postings, search-focused layouts, and scroll animations.",
         tech: [
             "Elementor Pro",
             "PHP",
@@ -142,7 +142,7 @@ export const projects = [
         date: "Jul 2026",
         role: "WordPress Development",
         description:
-            "A modern, responsive WordPress website built for Opal Street, featuring tailored layouts, fast loading times, and a streamlined user experience.",
+  "A responsive business website developed with WordPress and Elementor, featuring custom layouts, mobile optimization, clear content structure, and streamlined navigation.",
         tech: [
             "WordPress",
             "PHP",
@@ -164,7 +164,7 @@ export const projects = [
         date: "Jul 2026",
         role: "WordPress Development",
         description:
-            "A responsive WordPress website designed for construction and rebuilding services, featuring a clean modern layout, service showcases, and project portfolio sections.",
+  "A responsive construction and renovation website developed with WordPress and Elementor, featuring service pages, project showcases, custom layouts, and mobile-friendly design.",
         tech: [
             "WordPress",
             "PHP",
@@ -186,7 +186,7 @@ export const projects = [
         date: "Jul 2026",
         role: "WordPress Development",
         description:
-            "A sleek and fully responsive WordPress website built for Fillo, focused on user engagement, modern design standards, and smooth navigation.",
+  "A responsive construction and renovation website developed with WordPress and Elementor, featuring service pages, project showcases, custom layouts, and mobile-friendly design.",
         tech: [
             "WordPress",
             "PHP",
@@ -200,23 +200,22 @@ export const projects = [
     {
         id: 10,
         title: "Personal Portfolio",
-        mainTech: "React + Vite",
+        mainTech: "Vite + JavaScript",
         image: portfolio, // Import or define this image variable at the top
         imageClass: "bg-cover bg-center",
-        category: ["react", "tailwind"],
+        category: ["javascript", "tailwind"],
         type: "Portfolio Website",
         date: "Jul 2026",
         role: "Frontend Development",
         description:
-            "My personal developer portfolio highlighting my projects, frontend skills, experience, and contact information with a sleek, modern UI built with Vite and React.",
+  "A responsive developer portfolio built with Vite, JavaScript, and Tailwind CSS, showcasing frontend and WordPress projects with interactive filtering, animations, SEO optimization, and performance-focused development.",
         tech: [
-            "React",
-            "Vite",
-            "Tailwind CSS",
-            "JavaScript",
-            "Vercel",
-            "GitHub"
-        ],
+  "JavaScript",
+  "Vite",
+  "Tailwind CSS",
+  "Vercel",
+  "GitHub"
+],
         live: "https://bikram-bagdi.vercel.app/",
         github: "https://github.com/bikram8538", // Add your repo link if public
     },
