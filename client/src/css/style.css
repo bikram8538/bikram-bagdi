@@ -156,10 +156,9 @@ body,
     @apply text-primary;
   }
 
-  #btn-hero {
+  .hero-actions .btn{
     @apply px-3.5 py-2.5 text-[10px] md:text-[12px] uppercase;
   }
-
 
 
   /* Hero */
@@ -211,6 +210,7 @@ body,
   .hero-actions {
     @apply mt-10 flex gap-4;
   }
+
 
   .hero-scroll {
     @apply absolute bottom-8 left-1/2 -translate-x-1/2 z-50 hidden lg:flex flex-col items-center gap-3;

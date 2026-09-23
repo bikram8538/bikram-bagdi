@@ -11,10 +11,10 @@ export function Contact() {
                         class="inline-block w-0.5 h-0.5 bg-secondary"></span><span class="sec-title text-[10px]">HOW
                         CAN WE WORK TOGETHER?</span></p>
             </div>
-            <div class="sec-heading mt-8">
+            <div class="sec-heading mt-8 max-w-xs md:max-w-[70ch]">
                 <h2>
-  Need a <i class="text-accent">Frontend or WordPress</i> Developer? <br>
-  Let's Work Together.
+  Need a <i class="text-accent">Frontend or WordPress</i> Developer?
+  <u>Let's Work Together.</u>
 </h2>
             </div>
         </div>
