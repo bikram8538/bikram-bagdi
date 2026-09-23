@@ -74,10 +74,30 @@ export function Contact() {
 
                     <!-- Button -->
                     <div class="pt-2">
-                        <button id="contact-submit" type="submit" class="btn-secondary">
-                            <span class="btn-text">Send Message</span>
-                            <span class="btn-icon">→</span>
-                        </button>
+                        <button
+    id="contact-submit"
+    type="submit"
+    class="group inline-flex w-full sm:w-auto items-center justify-center gap-3
+           rounded-lg bg-primary px-7 py-3.5
+           font-secondary text-[11px] font-medium uppercase tracking-[0.16em]
+           text-background
+           transition-all duration-300 ease-out
+           hover:bg-accent hover:text-white hover:-translate-y-0.5
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-accent
+           focus-visible:ring-offset-2 focus-visible:ring-offset-background
+           active:translate-y-0"
+>
+    <span class="btn-text">Send Message</span>
+
+    <span
+        class="btn-icon inline-flex items-center justify-center
+               transition-transform duration-300
+               group-hover:translate-x-1"
+        aria-hidden="true"
+    >
+        →
+    </span>
+</button>
                     </div>
 
                 </form>
